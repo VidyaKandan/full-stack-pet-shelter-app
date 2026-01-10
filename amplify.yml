@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd pet-shelter-client
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: pet-shelter-client/dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - pet-shelter-client/node_modules/**/*
