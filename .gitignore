@@ -26,7 +26,6 @@ dist-ssr
 
 backend/.aws-sam/
 .env
-.kiro
 
 # Setup files
 setup_app.sh

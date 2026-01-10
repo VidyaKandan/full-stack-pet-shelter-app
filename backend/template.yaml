@@ -212,9 +212,9 @@ Resources:
         - openid
         - aws.cognito.signin.user.admin
       CallbackURLs:
-        - https://main.d3by42puvaxzx2.amplifyapp.com # REPLACE WITH PETS APP CLOUDFRONT PREVIEW DOMAIN URL
+        - http://localhost:8081 # REPLACE WITH PETS APP CLOUDFRONT PREVIEW DOMAIN URL
       LogoutURLs:
-        - https://main.d3by42puvaxzx2.amplifyapp.com # REPLACE WITH PETS APP CLOUDFRONT PREVIEW DOMAIN URL
+        - http://localhost:8081 # REPLACE WITH PETS APP CLOUDFRONT PREVIEW DOMAIN URL
       SupportedIdentityProviders:
         - COGNITO
         
